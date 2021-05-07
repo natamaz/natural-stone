@@ -1,0 +1,26 @@
+@import "element";
+.section_work{
+  .container{
+    h2{
+      text-align: center;
+    }
+    .work{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .box{
+        background-image: url("../images/box_bg.png");
+        background-repeat: no-repeat;
+        background-size: initial;
+        p{
+          color:$color2;
+          font-family: $Montserrat-Regular;
+          font-size: 16px;
+          $font-weight4:400;
+          font-style: $style1;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
